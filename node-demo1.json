@@ -1,0 +1,44 @@
+{
+    "@id": "dtmi:example:Node;1",
+    "@type": "Interface",
+    "displayName": "Node",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "Software",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "Data",
+        "schema": "string"
+      },
+      {
+        "@type": ["Property","DataSize"],
+        "name": "Capacity",
+        "schema": "integer",
+        "unit":"gibibit"
+      },
+      {
+        "@type": "Property",
+        "name": "RAMinGB",
+        "schema": "integer"
+      },
+      {
+        "@type": "Property",
+        "name": "Interface",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "PercentCapacity",
+        "schema": "integer"
+      },
+      {
+        "@type": "Property",
+        "name": "PercentCPU",
+        "schema": "integer"
+      }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

@@ -1,0 +1,20 @@
+{
+    "@id": "dtmi:example:Rack;1",
+    "@type": "Interface",
+    "displayName": "Rack",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+        "@type": "Relationship",
+        "name": "comprises",
+        "displayName": "comprises",
+        "properties": [
+          {
+            "name": "ownershipUser",
+            "@type":"Property",
+            "schema": "string"
+          }
+        ]
+      }
+    ]
+  }
